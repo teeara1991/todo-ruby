@@ -13,7 +13,6 @@
 ActiveRecord::Schema.define(version: 2019_11_12_195132) do
 
   create_table "tasks", force: :cascade do |t|
-    t.string "title"
     t.text "text"
     t.boolean "completed"
     t.datetime "created_at", precision: 6, null: false
